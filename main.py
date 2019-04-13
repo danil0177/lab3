@@ -1,16 +1,16 @@
 import json
 
 data = {
-    "FirstName":"Petr",
-    "LastName":"Ivskii",
-    "Address": {
-        "StreetAddress":"Moskow st., 12, f. 5",
-        "City":"St.Petersburg",
-        "PostalCode": 342009
+    "Имя":"Анна",
+    "Фамилия":"Борисенко",
+    "Отчество":"Евгеньевна",
+    "Адрес": {
+        "Улица":"Красноармейская 75",
+        "Город":"Ростов-на-Дону",
+        "Индекс": 344012
     },
-    "PhoneNumbers": [
-        "812 123-1234",
-        "916 123-4567"
+    "Номер Телефона": [
+        "+7 952 576 74 36"
     ]
     }
 with open('result.json', 'w') as outfile:
